@@ -1,0 +1,22 @@
+.searchbar {
+  padding: 30px 10px 0 10px;
+  border-radius: 10px;
+  &__search {
+    width: 100%;
+  }
+  button {
+    background-color: white;
+    border: none;
+    border-radius: 0 20px 20px 0;
+  }
+  input {
+    border: none;
+    border-radius: 20px 0 0 20px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .container-fluid {
+    max-width: 100%;
+  }
+}

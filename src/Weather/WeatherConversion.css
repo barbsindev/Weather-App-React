@@ -1,0 +1,19 @@
+.temperature {
+  font-size: 2.5rem !important;
+  text-align: left;
+}
+
+.temperature__celsius {
+  color: white !important;
+}
+
+.temperature__farenheit {
+  color: white !important;
+}
+
+.temperature__units {
+  position: relative;
+  left: 2px;
+  bottom: 15px;
+}
+/*# sourceMappingURL=WeatherConversion.css.map */

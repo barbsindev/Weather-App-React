@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,YAAY,CAAC;EACX,SAAS,EAAE,iBAAiB;EAC5B,UAAU,EAAE,IAAI;CAYjB;;AAXE,AAAD,qBAAU,CAAC;EACT,KAAK,EAAE,gBAAgB;CACxB;;AACA,AAAD,uBAAY,CAAC;EACX,KAAK,EAAE,gBAAgB;CACxB;;AACA,AAAD,mBAAQ,CAAC;EACP,QAAQ,EAAE,QAAQ;EAClB,IAAI,EAAE,GAAG;EACT,MAAM,EAAE,IAAI;CACb",
+    "sources": [
+        "WeatherConversion.scss"
+    ],
+    "names": [],
+    "file": "WeatherConversion.css"
+}
