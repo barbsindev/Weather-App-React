@@ -1,3 +1,9 @@
+# Overview
+
+This project is a weather app based on Google weather app design using weather frog images, React, SCSS.
+
+<img width="704" alt="Screenshot 2022-03-10 at 15 38 27" src="https://user-images.githubusercontent.com/77361223/157756380-5012dc33-4760-41db-b2a1-901b89f62bba.png">
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
