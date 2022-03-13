@@ -1,4 +1,18 @@
-# Getting Started with Create React App
+# React Weather App
+
+## Overview
+
+This project is a weather app which was developed using React and SCSS.
+The design is based on Google weather app using frog weather images.
+
+<img width="704" alt="Screenshot 2022-03-10 at 15 38 27" src="https://user-images.githubusercontent.com/77361223/157756380-5012dc33-4760-41db-b2a1-901b89f62bba.png">
+
+## Features
+
+Main features are Axios,pulling data from openweatherAPI, Geolocation API, Fahrenheit to Celsius convertor, current time and date and 5 days forecast.
+
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
