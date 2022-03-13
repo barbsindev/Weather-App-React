@@ -1,23 +1,17 @@
 import React, { useState } from "react";
 import "./Searchbar.scss";
 import axios from "axios";
-import FormattedDate from "../FormattedDate";
-import WeatherInfo from "../../src/Weather/WeatherInfo";
-import WeatherIcon from "../Weather/WeatherIcon";
-// import Forecast from "../Forecast/Forecast";
-import Background from "../Background";
-import clear from "../images/clear.jpg";
-import cloudy from "../images/cloudy.jpg";
-import fog from "../images/fog.jpg";
-import icecrystals from "../images/ice-crystals.jpg";
-import mostlysunny from "../images/mostly-sunny.jpg";
-import partlycloudy from "../images/partly-cloudy.jpg";
-import rain from "../images/rain.jpg";
-import sleet from "../images/sleet.jpg";
-import snow from "../images/snow.jpg";
-import sunny from "../images/sunny.jpg";
-import thunder from "../images/thunder.jpg";
-import DailyForecast from "../Forecast/DailyForecast";
+import WeatherInfo from "../Weather/WeatherInfo";
+import clear from "../../assets/clear.jpg";
+import cloudy from "../../assets/cloudy.jpg";
+import fog from "../../assets/fog.jpg";
+import partlycloudy from "../../assets/partly-cloudy.jpg";
+import rain from "../../assets/rain.jpg";
+import sleet from "../../assets/sleet.jpg";
+import snow from "../../assets/snow.jpg";
+import sunny from "../../assets/sunny.jpg";
+import thunder from "../../assets/thunder.jpg";
+import DailyForecast from "../Forecast/DailyForecast/DailyForecast";
 
 export default function Searchbar(props) {
   let [city, setCity] = useState(props.defaultCity);
@@ -112,10 +106,6 @@ export default function Searchbar(props) {
         </header>
         <section>
           <WeatherInfo data={weatherData} className="p-0" />
-          {/* <Forecast
-            city={weatherData.city}
-            coordinates={weatherData.coordinates}
-          /> */}
           <DailyForecast coordinates={weatherData.coordinates} />
         </section>
       </div>
