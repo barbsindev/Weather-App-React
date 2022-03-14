@@ -3,6 +3,11 @@
 .App {
   margin-top: 30px;
 }
+@media screen and (max-width: 550px) {
+  .App {
+    margin-top: 0;
+  }
+}
 .container-fluid {
   width: 100%;
   max-width: 350px;
@@ -14,7 +19,12 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
-
+@media screen and (max-width: 550px) {
+  .container-fluid {
+    border-radius: 0px;
+    max-width: 100%;
+  }
+}
 footer {
   text-align: center;
   a {
@@ -39,22 +49,13 @@ canvas {
 
 section {
   padding: 10px;
+  padding-top: 0;
 }
 
 a {
   font-size: 15px;
 }
+
 a:hover {
   text-decoration: none !important;
-}
-h6 {
-  color: $black;
-}
-section {
-  padding-top: 0;
-}
-
-.searchbar {
-  padding-bottom: 0;
-  padding-top: 30px;
 }

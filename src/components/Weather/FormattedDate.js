@@ -30,10 +30,10 @@ export default function FormattedDate(props) {
     minutes = `0${minutes}`;
   }
   return (
-    <div>
-      <h6 className="m-0">
+    <>
+      <p className="m-0" style={{ color: "black" }}>
         {day}, {date} {month} , {hours}:{minutes}
-      </h6>
-    </div>
+      </p>
+    </>
   );
 }
