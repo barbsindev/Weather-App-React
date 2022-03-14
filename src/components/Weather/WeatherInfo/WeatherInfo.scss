@@ -1,0 +1,13 @@
+.weather-info {
+  margin-bottom: 180px;
+  padding: 0 10px;
+
+  .description {
+    text-align: end;
+  }
+}
+@media screen and (max-width: 800px) {
+  .weather-info {
+    margin-bottom: 100%;
+  }
+}

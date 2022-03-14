@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import "./ForecastInfo.scss";
 import axios from "axios";
+import "./ForecastInfo.scss";
 import ForecastInfo from "./ForecastInfo/ForecastInfo";
 
 export default function Forecast(props) {
@@ -11,7 +11,6 @@ export default function Forecast(props) {
     setForecast(response.data);
     setLoaded(true);
   }
-
   if (loaded && props.city === forecast.city.name) {
     return (
       <div className="Forecast row m-0 small">

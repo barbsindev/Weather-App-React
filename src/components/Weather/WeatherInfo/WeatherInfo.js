@@ -1,10 +1,11 @@
 import React from "react";
-import FormattedDate from "./FormattedDate";
-import WeatherConversion from "./WeatherConversion";
+import "./WeatherInfo.scss";
+import FormattedDate from "../FormattedDate";
+import WeatherConversion from "../WeatherConversion/WeatherConversion";
 
 export default function WeatherInfo(props) {
   return (
-    <article>
+    <section className="weather-info">
       <FormattedDate date={props.data.date} />
       <div className="city">
         <h2 className="city__current m-0">{props.data.city}</h2>
@@ -29,6 +30,6 @@ export default function WeatherInfo(props) {
           </p>
         </div>
       </div>
-    </article>
+    </section>
   );
 }

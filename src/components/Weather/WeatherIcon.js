@@ -1,6 +1,4 @@
 import React from "react";
-
-
 import ReactAnimatedWeather from "react-animated-weather";
 
 export default function WeatherIcon(props) {
@@ -22,7 +20,7 @@ export default function WeatherIcon(props) {
     "13d": "SNOW",
     "13n": "SNOW",
     "50d": "FOG",
-    "50n": "FOG"
+    "50n": "FOG",
   };
 
   return (
